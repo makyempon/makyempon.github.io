@@ -1,0 +1,24 @@
+.ma01{
+	text-align: center;
+	padding-top: 10%;
+}
+
+a{
+	text-decoration: none;
+	padding: 5px;
+}
+
+i{
+	font-size: 1em;
+	color: #494F55;
+}
+
+
+footer{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	font-family: 'Courier New', monospace;
+}
