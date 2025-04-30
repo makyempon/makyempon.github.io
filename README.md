@@ -4,7 +4,7 @@ Welcome to the personal website of **Mahonne Akyempon**, built to showcase profe
 
 ## 🔗 Live Site
 
-[https://makyempon.github.io](https://makyempon.github.io)
+[👉click-me](https://makyempon.github.io)
 
 ---
 
