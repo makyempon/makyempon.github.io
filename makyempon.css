@@ -1,24 +1,111 @@
-.ma01{
-	text-align: center;
-	padding-top: 10%;
-}
-
-a{
-	text-decoration: none;
-	padding: 5px;
-}
-
-i{
-	font-size: 1em;
-	color: #494F55;
+body {
+  background: #F0F0F0 url('img/network.jpg') no-repeat center center fixed;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
 }
 
 
-footer{
-	position: fixed;
-	width: 100%;
-	left: 0;
-	bottom: 0;
-	text-align: center;
-	font-family: 'Courier New', monospace;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
+}
+
+.social-icons, .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a, .nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-family: 'Courier New', monospace;
+  transition: color 0.3s ease;
+}
+
+/* Hover, Focus, and Active color */
+.social-icons a:hover, .nav-links a:hover,
+.social-icons a:focus, .nav-links a:focus,
+/*.social-icons a.active, .nav-links a.active {
+  color: #f8f8f8;*/
+}
+
+i {
+  font-size: 1.5em;
+  color: #494F55;
+}
+
+.hero-section {
+  height: 80vh; /* 80% of screen height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  text-align: center;
+  padding: 0 20px; /* small padding for mobile */
+}
+
+.hero-text {
+  font-size: 3em;
+  color: #333;
+  word-break: break-word;
+}
+
+/* Responsive text size for smaller devices */
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 2em; /* smaller on tablet and mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text {
+    font-size: 1.5em; /* even smaller on small phones */
+  }
+}
+
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: 'Courier New', monospace;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f0f0f0;
+  border-top: 5px solid #333;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  background-color: transparent;
+  padding: 10px 0;
 }
