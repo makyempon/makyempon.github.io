@@ -43,6 +43,17 @@ i {
   color: #494F55;
 }
 
+.coffee-link {
+  font-size: 1.4em;
+  color: #c49b0e;
+  transition: transform 0.2s ease;
+}
+
+.coffee-link:hover {
+  transform: scale(1.2);
+  color: #d4af37;
+}
+
 .hero-section {
   height: 80vh; /* 80% of screen height */
   display: flex;
