@@ -1,6 +1,6 @@
-# 🌐 Mahonne Akyempon — Personal Website
+# 🌐Hi there,
 
-Welcome to the personal website of **Mahonne Akyempon**, built to showcase professional experience, interests, and online presence in a clean and elegant way.
+Welcome to my personal website, built to showcase professional experience, interests, and online presence in a clean and elegant way.
 
 ## 🔗 Live Site
 
@@ -13,7 +13,6 @@ Welcome to the personal website of **Mahonne Akyempon**, built to showcase profe
 ```plaintext
 .
 ├── index.html          # Home page with hero section
-├── about.html          # About page (under development)
 ├── cv.html             # CV page (under development)
 ├── makyempon.css       # Main stylesheet (responsive, styled hero, nav, footer)
 ├── makyempon.js        # JS for navigation highlighting
