@@ -13,7 +13,7 @@ Welcome to my personal website, built to showcase professional experience, inter
 ```plaintext
 .
 ├── index.html          # Home page with hero section
-├── assets              #
+├── assets              # cv in pdf
 ├── makyempon.css       # Main stylesheet (responsive, styled hero, nav, footer)
 ├── makyempon.js        # JS for navigation highlighting
 └── favicon_io/         # Folder for favicon assets
