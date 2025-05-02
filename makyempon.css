@@ -80,6 +80,29 @@ i {
 .btn {
   text-decoration: none;
   padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  color: #000;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 999px; /* pill shape */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transform: scale(1.03);
+}
+
+
+/*.btn {
+  text-decoration: none;
+  padding: 12px 24px;
   background-color: #333;
   color: white;
   font-family: 'Courier New', monospace;
@@ -89,7 +112,7 @@ i {
 
 .btn:hover {
   background-color: #555;
-}
+}*/
 
 /* Apply to name */
 .hero-text {
