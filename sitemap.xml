@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
+  <loc>http://makyempon.github.io/aboutme.html</loc>
+  <priority>1.0</priority>
+  <lastmod>2025-05-11</lastmod>
+</url>
+<url>
   <loc>http://makyempon.github.io/assets/Mahonne_CV.pdf</loc>
+  <priority>1.0</priority>
+  <lastmod>2025-05-11</lastmod>
+</url>
+<url>
+  <loc>http://makyempon.github.io/https:makyempon.github.io</loc>
+  <priority>1.0</priority>
+  <lastmod>2025-05-11</lastmod>
+</url>
+<url>
+  <loc>http://makyempon.github.io/</loc>
+  <priority>1.0</priority>
+  <lastmod>2025-05-11</lastmod>
 </url>
 </urlset>
